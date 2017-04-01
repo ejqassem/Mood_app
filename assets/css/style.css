@@ -1,3 +1,73 @@
-#main {
-  text-align: center; 
+@font-face {
+  font-family: "tinderFont";
+  src: url(fonts/tinderFont.ttf);
+}
+
+.container-fluid {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+header {
+  width: 100%;
+}
+
+#mainHeading {
+  padding-top: 10px;
+  text-align: center;
+  font-family: "tinderFont";
+  background-color: #003366;
+  text-shadow:
+    -1px -1px 0 #ea474c,
+    1px -1px 0 #ea474c,
+    -1px 1px 0 #ea474c,
+    1px 1px 0 #ea474c;
+  color: #003366;
+  border-bottom: 4px solid lightgray;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  min-width: 100%;
+}
+
+#moodText {
+  color: #ea474c;
+  font-family: "tinderFont";
+}
+
+#moodText2 {
+  text-shadow:
+    -1px -1px 0 #ea474c,
+    1px -1px 0 #ea474c,
+    -1px 1px 0 #ea474c,
+    1px 1px 0 #ea474c;
+  color: #003366;
+  font-family: "tinderFont";
+}
+
+#getStarted {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#getStartedText {
+  text-shadow:
+    -1px -1px 0 #ea474c,
+    1px -1px 0 #ea474c,
+    -1px 1px 0 #ea474c,
+    1px 1px 0 #ea474c;
+  color: black;
+}
+
+#mainSection {
+  overflow: auto;
+  padding-top: 0px;
+  background-image: url("../images/backgroundImageMain.jpg");
+  background-size: cover;
+  z-index: -1;
+  background-position: center center;
+  background-repeat: no-repeat;
+  min-height: 780px;
+  width: 1440px;
 }
